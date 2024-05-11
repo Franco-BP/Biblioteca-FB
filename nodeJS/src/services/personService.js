@@ -27,12 +27,12 @@ async function getAllPeople() {
 }
 
 async function getPersonById(data) {
-  const { id } = data;
+  const { personId } = data;
   try {
-    const person = await PersonModel.findByPk(id);
+    const person = await PersonModel.findByPk(personId);
     return person;
   } catch (error) {
-    throw new Error(`Error al obtener la persona con el id: ${id}`);
+    throw new Error(`Error al obtener la persona con el id: ${personId}`);
   };
 }
 

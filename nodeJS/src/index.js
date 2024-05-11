@@ -22,6 +22,7 @@ app.use(express.json());
 
 // Routes.
 app.use(require('./routes/personRoutes.js'));
+app.use(require('./routes/carRoutes.js'));
 
 
 // Initializing the server.

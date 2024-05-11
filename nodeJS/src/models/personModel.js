@@ -1,5 +1,6 @@
 const { DataTypes, Model } = require('sequelize');
 const sequelize = require('../config/database.js');
+const CarModel = require('./carModel.js');
 
 class PersonModel extends Model {};
 
@@ -29,5 +30,7 @@ PersonModel.init(
     tableName: 'person', // Nombre de la tabla en la base de datos
   }
 )
+
+PersonModel.hasMany(CarModel)
 
 module.exports = PersonModel;

@@ -35,7 +35,7 @@ async function getPersonById(req, res) {
   }
 }
 
-// Controller to create a new instance of a person.
+// Controller to create a new entry of a person.
 // Takes 'name' and 'contactNumber' in the body.
 async function createPerson(req, res) {
     try {
