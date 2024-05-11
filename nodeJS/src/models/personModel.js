@@ -31,6 +31,7 @@ PersonModel.init(
   }
 )
 
-PersonModel.hasMany(CarModel)
+// Declares the association between Car and Person: Car n<->1 person.
+PersonModel.hasMany(CarModel, { foreignKey: 'personId' })
 
 module.exports = PersonModel;
