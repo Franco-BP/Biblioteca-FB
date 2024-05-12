@@ -8,7 +8,7 @@ router.get('/person/getAll', PersonController.getAllPeople);
 
 router.get('/person/getById', PersonController.getPersonById);
 
-router.get('/person/create', PersonController.createPerson);
+router.post('/person/create', PersonController.createPerson);
 
 
 module.exports = router;

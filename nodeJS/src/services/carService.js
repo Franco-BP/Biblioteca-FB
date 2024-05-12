@@ -4,10 +4,10 @@
 const CarModel = require('../models/carModel.js');
 
 async function createCar(data) {
-  const { brand, model, productionYear } = data;
+  const { brand, model, productionYear, personId } = data;
   try {
     const newCar = await CarModel.create({
-      brand, model, productionYear
+      brand, model, productionYear, personId
     });
     return newCar;
   } catch (error) {

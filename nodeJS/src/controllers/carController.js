@@ -39,11 +39,11 @@ async function getCarById(req, res) {
 // Takes 'brand', 'model' and 'productionYear' in the body.
 async function createCar(req, res) {
     try {
-      const { brand, model, productionYear } = req.body;
+      const { brand, model, productionYear, personId } = req.body;
 
       // Calls the Service to create the car.
       const newCar = await CarService.createCar({
-        brand, model, productionYear
+        brand, model, productionYear, personId
       });
   
       if (newCar) {

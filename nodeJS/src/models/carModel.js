@@ -31,7 +31,6 @@ CarModel.init(
   }
 )
 
-// Declares the association between Car and Person: Car n<->1 person.
 CarModel.belongsTo(PersonModel, { foreignKey: 'personId' });
 
 module.exports = CarModel;

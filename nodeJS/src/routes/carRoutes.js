@@ -8,7 +8,7 @@ router.get('/car/getAll', CarController.getAllCars);
 
 router.get('/car/getById', CarController.getCarById);
 
-router.get('/car/create', CarController.createCar);
+router.post('/car/create', CarController.createCar);
 
 
 module.exports = router;
