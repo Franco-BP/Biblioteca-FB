@@ -1,0 +1,39 @@
+.section-main-div {
+    height: 100vh;
+    width: 100%;
+}
+
+.section-hero-section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-color: white;
+    padding-top: 3rem;
+}
+
+.section-image-list {
+    width: 50rem;
+    margin-top: 2rem;
+}
+
+.section-image-item {
+    aspect-ratio: 1;
+}
+
+.icon-button {
+    color: 'rgba(255, 255, 255, 0.54)'
+}
+
+.list-sub-header {
+    background-color: white;
+    border-width: 0.1rem;
+    border-style: inset;
+    border-color: black;
+    font-size: larger;
+    text-transform: capitalize;
+    color: black;
+}

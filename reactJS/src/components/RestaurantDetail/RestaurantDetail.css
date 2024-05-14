@@ -1,0 +1,23 @@
+.carousel-container {
+    width: 100%;
+    height: 20rem !important;
+}
+
+.div-details{
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.Map{
+    width: 25rem;
+    height: 18.75rem;
+}
+
+.Grid{
+    margin-bottom: 0.625rem;
+    margin-top: 0.625rem;
+}
+
+.Tab{
+    background-color: beige !important;
+}

@@ -1,0 +1,39 @@
+
+.searchbar-container {
+  width: 50rem;
+  margin: 0 auto; 
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+form .MuiButton-root {
+  flex: 1; /* Ocupa todo el ancho disponible */
+}
+
+/* Personaliza los colores a tu gusto */
+.MuiInputLabel-formControl {
+  color: #333;
+}
+
+.MuiOutlinedInput-root {
+  border-radius: 0.25rem;
+  background-color: #fff;
+}
+
+.MuiSelect-outlined.MuiSelect-outlined {
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
+}
+
+.MuiSelect-iconOutlined {
+  color: #333;
+}
+
+.MuiMenuItem-root {
+  color: #333;
+}

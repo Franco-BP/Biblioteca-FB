@@ -1,0 +1,71 @@
+.ShowCard{
+    width: 12.5rem;
+    height: 22.1875rem;
+    overflow: unset;
+    will-change: opacity;
+    animation: FadeIn 1s;
+
+    @media (max-width: 500px) {
+        width: 8.75rem;
+        height: 15.5rem;
+    }
+
+}
+
+.ShowCardAction{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    align-content: center !important;
+    width: 12.5rem;
+    height: 22.1875rem;
+
+    @media (max-width: 500px) {
+        width: 8.75rem;
+        height: 15.5rem;
+    }
+}
+
+.ShowCardMedia{
+    width: 100%;
+    height: 100%;
+    overflow: hidden !important;
+}
+
+.ShowCardContent {
+    position: absolute !important;
+    padding: 0 !important;
+    animation: FadeIn 1s;
+    @media (max-width: 500px) {
+        padding: 0.25rem;
+    }
+}
+
+.ShowCardContent div {
+    border: 0;
+    margin: 0;
+}
+
+.TituloShow{
+    border-color: black;
+    width: 12.5rem;
+    height: 2rem;
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    color: white;
+    opacity: 0.65;
+    @media (max-width: 500px) {
+        font-size: 1rem;
+    }
+}
+
+@keyframes FadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

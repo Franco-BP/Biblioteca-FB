@@ -1,0 +1,38 @@
+.hero-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    background-color: white;
+}
+
+.categoria {
+    display: block;
+    margin: auto;
+    background-color: white;
+}
+
+
+.footer {
+    width: 100%;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    /* La property border se quita luego, es para apreciar las diferencias en el layout.*/
+   }
+
+.categoria > * {
+    margin: 0.75rem
+}
+
+.layout-section-container {
+    width: 100%;
+}
+
+.layout-section-name {
+    width: 15%;
+}
+
+.layout-section-name:hover {
+    cursor: pointer;
+}

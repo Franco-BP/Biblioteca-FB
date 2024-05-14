@@ -1,0 +1,70 @@
+.RestaurantCard{
+    width: 12.5rem;
+    height: 12.5rem;
+    overflow: unset;
+    will-change: opacity;
+    animation: FadeIn 1s;
+
+    @media (max-width: 500px) {
+        width: 8.75rem;
+        height: 8.75rem;
+    }
+
+}
+
+.RestaurantCardAction{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    align-content: center !important;
+    width: 12.5rem;
+    height: 12.5rem;
+
+    @media (max-width: 500px) {
+        width: 8.75rem;
+        height: 8.75rem;
+    }
+}
+
+.RestaurantCardMedia{
+    width: 100%;
+    height: 100%;
+}
+
+.RestaurantCardContent {
+    position: absolute !important;
+    padding: 0 !important;
+    animation: FadeIn 1s;
+    @media (max-width: 500px) {
+        padding: 0.25rem;
+    }
+}
+
+.RestaurantCardContent div {
+    border: 0;
+    margin: 0;
+}
+
+.TituloRestaurant{
+    border-color: black;
+    width: 12.5rem;
+    height: 2rem;
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    color: white;
+    opacity: 0.65;
+    @media (max-width: 500px) {
+        font-size: 1rem;
+    }
+}
+
+@keyframes FadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
